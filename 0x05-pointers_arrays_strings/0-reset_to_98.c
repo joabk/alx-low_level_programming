@@ -1,25 +1,9 @@
-#include<stdio.h>
-
-/*
- * main - 
- *
- * Return: Always 0
+#include "holberton.h"
+/**
+ *reset_to_98 - updates to 98
+ *@n:takes an integer
  */
-
-int reset_to_98(int *cc){
-  *cc = 98;
-  return 0;
-}
-
-int main(void){
-  int c;
-  int *p;
-
-  c = 402;
-  printf("c=%d\n", c);
-  p = &c;
-  reset_to_98(p);
-  printf("c=%d\n", c);
-
-  return 0;
+void reset_to_98(int *n)
+{
+  *n = 98;
 }
