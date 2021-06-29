@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+/*
+ * main - 
+ *
+ * Return: Always 0
+ */
+
+int reset_to_98(int *cc){
+  *cc = 98;
+  return 0;
+}
+
+int main(void){
+  int c;
+  int *p;
+
+  c = 402;
+  printf("n=%d\n", n);
+  p = &c;
+  reset_to_98(p);
+
+  return 0; 
+  
+}
